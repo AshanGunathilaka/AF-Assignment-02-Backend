@@ -20,7 +20,6 @@ app.use(cookieParser());
 
 // CORS: Allow both local dev and Netlify
 const allowedOrigins = [
-  "http://localhost:5173",
   "https://ashan-af.netlify.app", // 🔁 Replace with your real Netlify domain
 ];
 
